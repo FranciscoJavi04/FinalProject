@@ -1,0 +1,15 @@
+>>> Experiment: workload=balanced policy=FIFO (n=500, workers=6, seed=42)
+===== Results: balanced (FIFO) =====
+Total runtime / makespan (ms) : 8422
+Total tasks completed         : 500
+  CPU tasks completed         : 245
+  IO  tasks completed         : 255
+Average wait time (ms)        : 2040.63
+Average turnaround (ms)       : 2140.11
+Max wait time (ms)            : 4151
+CPU avg wait (ms)             : 2031.65
+IO  avg wait (ms)             : 2049.26
+Fairness gap |CPU-IO|         : 17.61
+Max queue length (single)     : 244
+Average CPU usage             : 95.0 %
+

@@ -1,0 +1,16 @@
+>>> Experiment: workload=balanced policy=Optimized (n=500, workers=6, seed=42)
+===== Results: balanced (Optimized) =====
+Total runtime / makespan (ms) : 8396
+Total tasks completed         : 500
+  CPU tasks completed         : 245
+  IO  tasks completed         : 255
+Average wait time (ms)        : 1708.17
+Average turnaround (ms)       : 1807.50
+Max wait time (ms)            : 4121
+CPU avg wait (ms)             : 601.51
+IO  avg wait (ms)             : 2771.44
+Fairness gap |CPU-IO|         : 2169.94
+Max CPU queue length          : 56
+Max IO  queue length          : 179
+Average CPU usage             : 95.3 %
+

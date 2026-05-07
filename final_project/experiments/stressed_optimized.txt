@@ -1,0 +1,15 @@
+>>> Experiment: workload=stressed policy=Optimized (n=500, workers=6, seed=42)
+===== Results: stressed (Optimized) =====
+Total runtime / makespan (ms) : 6822
+Total tasks completed         : 500
+  CPU tasks completed         : 431
+  IO  tasks completed         : 69
+Average wait time (ms)        : 2846.61
+Average turnaround (ms)       : 2926.80
+Max wait time (ms)            : 5596
+CPU avg wait (ms)             : 3005.08
+IO  avg wait (ms)             : 1856.72
+Fairness gap |CPU-IO|         : 1148.36
+Max CPU queue length          : 399
+Max IO  queue length          : 32
+Average CPU usage             : 94.0 %

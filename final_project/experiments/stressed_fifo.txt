@@ -1,0 +1,15 @@
+>>> Experiment: workload=stressed policy=FIFO (n=500, workers=6, seed=42)
+===== Results: stressed (FIFO) =====
+Total runtime / makespan (ms) : 6805
+Total tasks completed         : 500
+  CPU tasks completed         : 431
+  IO  tasks completed         : 69
+Average wait time (ms)        : 2718.78
+Average turnaround (ms)       : 2799.09
+Max wait time (ms)            : 5589
+CPU avg wait (ms)             : 2690.68
+IO  avg wait (ms)             : 2894.33
+Fairness gap |CPU-IO|         : 203.66
+Max queue length (single)     : 409
+Average CPU usage             : 94.2 %
+

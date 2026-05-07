@@ -1,0 +1,61 @@
+>>> Experiment: workload=balanced policy=FIFO (n=500, workers=6, seed=42)
+===== Results: balanced (FIFO) =====
+Total runtime / makespan (ms) : 8422
+Total tasks completed         : 500
+  CPU tasks completed         : 245
+  IO  tasks completed         : 255
+Average wait time (ms)        : 2040.63
+Average turnaround (ms)       : 2140.11
+Max wait time (ms)            : 4151
+CPU avg wait (ms)             : 2031.65
+IO  avg wait (ms)             : 2049.26
+Fairness gap |CPU-IO|         : 17.61
+Max queue length (single)     : 244
+Average CPU usage             : 95.0 %
+
+>>> Experiment: workload=balanced policy=Optimized (n=500, workers=6, seed=42)
+===== Results: balanced (Optimized) =====
+Total runtime / makespan (ms) : 8396
+Total tasks completed         : 500
+  CPU tasks completed         : 245
+  IO  tasks completed         : 255
+Average wait time (ms)        : 1708.17
+Average turnaround (ms)       : 1807.50
+Max wait time (ms)            : 4121
+CPU avg wait (ms)             : 601.51
+IO  avg wait (ms)             : 2771.44
+Fairness gap |CPU-IO|         : 2169.94
+Max CPU queue length          : 56
+Max IO  queue length          : 179
+Average CPU usage             : 95.3 %
+
+>>> Experiment: workload=stressed policy=FIFO (n=500, workers=6, seed=42)
+===== Results: stressed (FIFO) =====
+Total runtime / makespan (ms) : 6805
+Total tasks completed         : 500
+  CPU tasks completed         : 431
+  IO  tasks completed         : 69
+Average wait time (ms)        : 2718.78
+Average turnaround (ms)       : 2799.09
+Max wait time (ms)            : 5589
+CPU avg wait (ms)             : 2690.68
+IO  avg wait (ms)             : 2894.33
+Fairness gap |CPU-IO|         : 203.66
+Max queue length (single)     : 409
+Average CPU usage             : 94.2 %
+
+>>> Experiment: workload=stressed policy=Optimized (n=500, workers=6, seed=42)
+===== Results: stressed (Optimized) =====
+Total runtime / makespan (ms) : 6822
+Total tasks completed         : 500
+  CPU tasks completed         : 431
+  IO  tasks completed         : 69
+Average wait time (ms)        : 2846.61
+Average turnaround (ms)       : 2926.80
+Max wait time (ms)            : 5596
+CPU avg wait (ms)             : 3005.08
+IO  avg wait (ms)             : 1856.72
+Fairness gap |CPU-IO|         : 1148.36
+Max CPU queue length          : 399
+Max IO  queue length          : 32
+Average CPU usage             : 94.0 %

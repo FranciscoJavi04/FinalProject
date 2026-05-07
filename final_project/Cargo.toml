@@ -1,0 +1,11 @@
+[package]
+name = "task_dispatcher"
+version = "0.1.0"
+edition = "2021"
+authors = ["Francisco"]
+
+[dependencies]
+rand = "0.8"
+
+[profile.release]
+opt-level = 3
